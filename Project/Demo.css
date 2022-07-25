@@ -1,0 +1,152 @@
+body{
+    padding: 0%;
+    border: 0%;
+    margin: 0;
+    background-color: azure;
+    animation-duration: 8s;
+    animation-name: test;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test{
+    from{
+        background-color: azure;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+
+.navbar{
+    background-color:black;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-top: 25px;   
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.navbutton{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    top: 40%;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 3%;
+    
+}
+
+a:hover{
+    background-color: rgba(243, 243, 243, 0.815);
+    text-decoration: none;
+    color: turquoise;
+}
+
+a:active{
+    color: crimson;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.image-cointainer{
+    position: absolute;
+    display: flex;
+
+}
+
+#image-barrel{
+    min-width: 100%;
+    height: 650px;
+    opacity: 0.6px;
+}
+
+.banner{
+    position: absolute;
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: lighter;
+    top: 40%;
+    left: 30%;
+}
+
+.sub-banner{
+    position: absolute;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: lighter;
+    top: 50%;
+    left: 35%;
+}
+
+.all-round{
+    background-color: azure;
+    animation-duration: 8s;
+    animation-name: test;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test{
+    from{
+        background-color: azure;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+
+.specialization{
+    display: flex;
+    text-align: left;
+}
+
+
+
+.specialization{
+    font-size: 1rem;
+    padding-left: 44%;
+}
+
+.bed{
+    width: 100%;
+}
+
+#unsplash{
+    flex-wrap: wrap;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.lorem{
+    font-size: 1rem;
+    padding-left: 44%;
+}
+
+.specializatio{
+    font-size: 1rem;
+    padding-left: 44%;
+}
+
+.finishing{
+    margin-top: 5%;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
